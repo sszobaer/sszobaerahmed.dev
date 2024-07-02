@@ -67,7 +67,7 @@ yarn build
 
 ## License
 
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License - see the LICENSE file for details.
+This project is licensed under the [MIT](https://github.com/sszobaer/sszobaerahmed.dev/blob/main/LICENSE) License - see the LICENSE file for details.
 
 
 ## Contacts
