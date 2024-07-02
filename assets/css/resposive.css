@@ -1,0 +1,225 @@
+@media(min-width : 1400px){}
+@media(min-width : 1200px) and (max-width: 1399.98px){}
+@media(min-width : 992px) and (max-width: 1199.98px){
+    .Alignment{
+        flex-direction: column;
+    }
+    .photo{
+        margin-right: 22%;
+        align-items: center;
+    }
+    .heroCon{
+        margin: 0;
+        text-align: center;
+    }
+    .durationNdClick {
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .projectConInner h4 {
+        font-weight: 900;
+        text-align: center;
+    }
+}
+@media(min-width : 768px) and (max-width: 991.98px){
+    .menu {
+        display: none;
+    }
+    .collapseBtn{
+        display: block;
+    }
+    .collapseBtn:has(input:checked) + .menu {
+        display: block !important;
+        position:absolute;
+        top: 100%;
+        right: 0;
+        padding: 15px;
+        border-radius: 10px;
+        background:#f1f1f1;
+        border: 1px solid #e3e3e3;
+    }
+    .menu li{
+        margin: 5px 0;
+        text-align: right;
+        margin-top: 10px;
+    }
+    .menuBtn{
+        margin: 20px 0 !important;
+    }
+    .menuConMain{
+        position: relative;
+    }
+
+    .Alignment{
+        flex-direction: column;
+    }
+    .photo{
+        margin-right: 29%;
+        align-items: center;
+    }
+    .heroCon{
+        margin: 0;
+        text-align: center;
+    }
+    .durationNdClick {
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .projectConInner h4 {
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .ListInner li {
+
+        font-size: 15px;
+    }
+}
+@media(min-width : 576px) and (max-width: 767.98px){
+    .menu {
+        display: none;
+    }
+    .collapseBtn{
+        display: block;
+    }
+    .collapseBtn:has(input:checked) + .menu {
+        display: block !important;
+        position:absolute;
+        top: 100%;
+        right: 0;
+        padding: 15px;
+        border-radius: 10px;
+        background:#f1f1f1;
+        border: 1px solid #e3e3e3;
+    }
+    .menu li{
+        margin: 5px 0;
+        text-align: right;
+        margin-top: 10px;
+    }
+    .menuBtn{
+        margin: 20px 0 !important;
+    }
+    .menuConMain{
+        position: relative;
+    }
+
+    .Alignment{
+        flex-direction: column;
+    }
+    .photo{
+        margin-right: 40%;
+        align-items: center;
+    }
+    .heroCon{
+        margin: 0;
+        text-align: center;
+    }
+
+    .projectConMain {
+        flex-wrap: wrap;
+    }
+    .durationNdClick {
+        flex-direction: column;
+    }
+    /* .durationNdClick .ClickHere {
+        padding: 7px 6px;
+    } */
+    .projectCon{
+        width: 45%;
+    }
+    .projectConInner h4 {
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .ListInner li {
+
+        font-size: 15px;
+    }
+    
+}
+@media(max-width : 575.98px){
+    .menu {
+        display: none;
+    }
+    .collapseBtn{
+        display: block;
+    }
+    .collapseBtn:has(input:checked) + .menu {
+        display: block !important;
+        position:absolute;
+        top: 100%;
+        right: 0;
+        padding: 15px;
+        border-radius: 10px;
+        background:#f1f1f1;
+        border: 1px solid #e3e3e3;
+    }
+    .menu li{
+        margin: 5px 0;
+        text-align: right;
+        margin-top: 10px;
+    }
+    .menuBtn{
+        margin: 20px 0 !important;
+    }
+    .menuConMain{
+        position: relative;
+    }
+
+    .Alignment{
+        flex-direction: column;
+    }
+    .photo{
+        margin-right: 30%;
+        width: 263px;
+        height: 372;
+        align-items: center;
+    }
+    .heroCon{
+        margin: 0;
+        text-align: center;
+    }
+    .heroCon h1 {
+        line-height: 0.75;
+        font-size: 58px;
+        font-weight: 800;
+        letter-spacing: -6px;
+    }
+    .projectConMain {
+        flex-wrap: wrap;
+    }
+    .projectCon{
+        width: 100%;
+    }
+    .projectConInner h4 {
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .ListInner li {
+
+        font-size: 15px;
+    }
+
+    .faq_question {
+        padding: 15px 20px;
+    }
+
+    .faq_head {
+        font-size: 36px;
+    }
+
+    .faq_answer {
+        font-size: 14px;
+    }
+}
